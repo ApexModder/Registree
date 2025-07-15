@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="AllRightsReserved"
+
+[[mods]]
+    modId="registree"
+    version="${file.jarVersion}"
+    displayName="Registree"
+    credits="Apex - Programming"
+    authors="ApexStudios"
+    description="Registree"
+
+[[dependencies.registree]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.7,1.21.8)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.registree]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.7-beta,21.8)"
+    ordering="NONE"
+    side="BOTH"
